@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ringo128のポートフォリオサイトです。">
+    <title>ringo128</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo-pc">
+            <h1><a href="index.html">ringo128</a></h1>
+        </div>
+        <nav id="nav-pc">
+            <a href="index.html#about">ABOUT</a>
+            <a href="index.html#skill">SKILL</a>
+            <a href="index.html#works">WORKS</a>
+        </nav>
+        <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く"
+            onclick="document.getElementById('nav-sp').style.display = 'block'">
+        <nav id="nav-sp">
+            <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる"
+                onclick="document.getElementById('nav-sp').style.display = 'none'">
+            <div id="logo-sp">
+                <h1><a href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">ringo128</a>
+                </h1>
+            </div>
+            <a href="index.html#about" class="menu"
+                onclick="document.getElementById('nav-sp').style.display = 'none'">ABOUT</a>
+            <a href="index.html#skill" class="menu"
+                onclick="document.getElementById('nav-sp').style.display = 'none'">SKILL</a>
+            <a href="index.html#work" class="menu"
+                onclick="document.getElementById('nav-sp').style.display = 'none'">WORKS</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section id="main-visual">
+                <div id="main-message">
+                    <h1>ringo128</h1>
+                    <p>誠心誠意ご対応いたします</p>
+                </div>
+                <img src="images/index/IMG_0287.JPG" alt="カエル">
+            </section>
+            <section id="about">
+                <h2 class="index-h2">ABOUT</h2>
+                <div id="about-flex">
+                    <div>
+                        <img id="about-photo" src="images/index/IMG_0237.JPG" alt="リンゴ">
+                        <div id="about-derection">
+                            <h3>ringo128</h3>
+                            <p>
+                                普段は事務職員として勤めています。<br>2023年からPython,HTML,CSS,JavaScriptの勉強を始めました。<br>事務職で培った報・連・相を発揮していきたいです。<br>よろしくお願いいたします。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="skill">
+                <h2 class="index-h2">SKILL</h2>
+                <div id="skill-flex">
+                    <div class="skill-item">
+                        <span>フロントエンド</span>
+                        <h3>HTML/CSS</h3>
+                        <p>2023年7月からオンラインスクールでの学習を開始しました。<br>WORKSの項目にあげているようなWebサイトが製作可能です。</p>
+                    </div>
+                    <div class="skill-item">
+                        <span>バックエンド</span>
+                        <h3>Python</h3>
+                        <p>2023年5月からオンラインスクールでの学習を開始しました。<br>実績はまだありませんが、将来的にはWebアプリ開発をメインでできるように学習をしています。</p>
+                    </div>
+                </div>
+            </section>
+            <section id="works">
+                <h2 class="index-h2">WORKS</h2>
+                <div id="works-flex">
+                    <div class="works-item">
+                        <a href="https://tyan-man.github.io/socialtech/"><img src="images/index/corporate.png" alt="コーポレートサイト"><p>スクールで作成したコーポレートサイト</p></a>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <footer>
+            <div id="footer-logo">
+                <h1><a href="index.html">ringo128</a></h1>
+            </div>
+            <div id="footer-link">
+                <a href="index.html#about">ABOUT</a>
+                <a href="index.html#skill">SKILL</a>
+                <a href="index.html#works">WORKS</a>
+            </div>
+            <div>
+                <span id="copyright">&copy;2024 ringo128</span>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
