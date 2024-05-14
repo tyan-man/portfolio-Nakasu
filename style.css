@@ -118,22 +118,22 @@ a {
         z-index: 10;
     }
 
-    h2 {
+    .index-h2 {
         margin: 40px 0 0 0;
     }
 
-    h2::after {
+    .index-h2::after {
         content: url("images/line.png");
         margin-left: 10px;
-    }
-
-    h3 {
-        font-size: 27px;
     }
 
     #about {
         margin: 20px;
         width: 100%;
+    }
+
+    .flex {
+        display: flex;
     }
 
     #about-photo {
@@ -142,12 +142,26 @@ a {
         border-radius: 50%;
         background-position-y: center;
         margin: 0;
+        padding: 0;
+        position: relative;
     }
 
-    #about-derection {
+    #about-derection-right {
         width: 100%;
         height: auto;
+        padding: 0;
+    }
+
+    .flex .title {
         margin: 0;
+        padding: 0;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .flex .text{
+        margin: 10px 0 0;
+        padding: 0;
     }
 
     #skill {
@@ -392,14 +406,9 @@ a {
         z-index: 20;
     }
 
-    h2::after {
+    .index-h2::after {
         content: url("images/line.png");
         margin-left: 10px;
-    }
-
-    h3 {
-        font-size: 24px;
-        margin: 10px 0 0 0;
     }
 
     #about {
@@ -413,7 +422,12 @@ a {
         border-radius: 50%;
     }
 
-    #about-derection {
+    .title {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    #about-derection-right {
         width: 100%;
         height: auto;
     }
